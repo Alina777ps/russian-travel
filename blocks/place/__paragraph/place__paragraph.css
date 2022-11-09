@@ -1,0 +1,8 @@
+.place-paragraph {
+    margin: 0;
+    padding: 0;
+    grid-area: paragraph;
+}
+.place__paragraph :last-of-type {
+    margin-bottom: 0;
+}

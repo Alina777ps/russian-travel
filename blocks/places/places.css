@@ -1,0 +1,7 @@
+.places {
+    margin: 0;
+    padding: 92px 148px;
+}
+.places :last-of-type {
+    margin-bottom: 0;
+}

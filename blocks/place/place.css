@@ -1,0 +1,14 @@
+.place {
+    margin: 0 0 80px 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: 
+    'title website'
+    'image paragpaph';
+    grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+    grid-template-rows: repeat(2, min-content);
+    justify-items: start;
+    align-items: start;
+    gap: 48px 40px;
+}
+
