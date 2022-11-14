@@ -4,7 +4,7 @@
     display: grid;
     grid-template-areas: 
     'title website'
-    'image paragpaph';
+    'image text';
     grid-template-columns: fit-content(460px) fit-content(484px);
     grid-template-rows: 2;
     justify-items: start;
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
     .place {
         margin-bottom: 50px;
         row-gap: 32px;
@@ -39,7 +39,7 @@
             'title' 
             'website'
             'image'
-            'paragpaph';
+            'text';
             grid-template-columns: minmax(min-content, max-content);
     }
 }
