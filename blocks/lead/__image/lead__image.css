@@ -1,5 +1,5 @@
 .lead__image {
-    min-height: calc((100vw - 148 * 2) * 0.625);
+    min-height: calc((100vw - 148px * 2) * 0.625);
     /*min-height: 615p;*/
     max-width: 984px;
     align-self: center;
@@ -13,7 +13,7 @@
     .lead__image {
       padding-top: 56px;
       max-width: 928px;
-      min-height: calc((100vw - 48 * 2) * 0.625);
+      min-height: calc((100vw - 48px * 2) * 0.625);
       /*min-height: 580px;*/
     }
   }
