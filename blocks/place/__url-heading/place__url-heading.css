@@ -9,10 +9,5 @@
     letter-spacing: 2px;
     text-align: left;
     color: #AAAAAA;
-}
-
-@media screen and (max-width: 320px) {
-    .place__url-heading {
-        padding-bottom: 16px;
-    }
+    text-transform: uppercase;
 }

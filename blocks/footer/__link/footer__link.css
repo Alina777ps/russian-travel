@@ -15,17 +15,10 @@
     transition: opaity .3s ease;
 }
 
-@media screen and (max-width: 700px) {
-    .footer__link {
-        font-size: 10px;
-        line-height: 10px;
-    }
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 660px) {
     .footer__link {
         font-size: 24px;
-        line-height: 24px;
+        line-height: 1;
     }
 }
 
